@@ -1,41 +1,21 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'puma/puma'
+# tap 'puma/puma' Need to look into how this could replace simple python server
 
-brew 'ack'
-brew 'coreutils'
-brew 'go'
-brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
+brew 'grc' # beautifies log files
+brew 'imagemagick' # manipulate images
+brew 'jp2a' # jpeg to ascii
+brew 'jq' # json preprocessor https://stedolan.github.io/jq/tutorial/
+brew 'ruby'
 brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'puma/puma/puma-dev'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
 brew 'unrar'
-brew 'wget'
-brew 'yarn'
+brew 'wget' # retreive http files
+brew 'yarn' # node module manager by facebook
 brew 'youtube-dl'
 
 cask '1password'
-cask 'adium'
-cask 'atom'
-cask 'firefox'
-cask 'garmin-express'
 cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
 cask 'slack'
 cask 'steam'
 cask 'transmission'

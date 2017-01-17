@@ -13,7 +13,6 @@ brew 'unrar'
 brew 'wget' # retreive http files
 brew 'yarn' # node module manager by facebook
 brew 'youtube-dl'
-brew 'googlecl' # interact with google products
 
 cask '1password'
 cask 'alfred'
